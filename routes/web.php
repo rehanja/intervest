@@ -20,3 +20,12 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/report', 'ReportController@index')->name('report');
+
+Route::get('/help', function(){
+    return view('help');
+}
+);
+
+Route::post('/saveHelp','HelpController@store');
+
+Route::get('/guide','HelpController@show');
