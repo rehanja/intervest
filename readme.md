@@ -12,6 +12,8 @@ GITHUB REPO LINK: https://github.com/rehanja/intervest
 
 - git clone https://github.com/rehanja/intervest
 - connect DB by changing .env(please use intervest1.sql which i attached with  mail)
+- composer update
+- php artisan key:generate
 - php artisan migrate
 - php artisan serve
 
