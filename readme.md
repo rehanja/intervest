@@ -9,6 +9,7 @@ GITHUB REPO LINK: https://github.com/rehanja/intervest
 - Database creation
 
 ## For run this project
+PHP version PHP 7.2.12 / Laravel Framework 5.6.40 
 
 - git clone https://github.com/rehanja/intervest
 - connect DB by changing .env(please use intervest1.sql which i attached with  mail)
