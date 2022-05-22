@@ -145,8 +145,6 @@
         <div class="btn-block">
           <button type="submit" href="/">SUBMIT POST</button>
         </div>
-
-
       </form>
       <br>
       

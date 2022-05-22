@@ -2,7 +2,7 @@ Due to limited time i only did below parts only in Intervest assignment
 
 GITHUB REPO LINK: https://github.com/rehanja/intervest
 
-- HELP & GUIDE SECTION Display data which enter by a form
+- HELP & GUIDE SECTION Display data show like a "post" which enter by a form
 - HELP & GUIDE SECTION data enter by form
 - COVID-19 STAT REPORT retrive data from API and display only in json format
 - Relevant UI & GIT repositry

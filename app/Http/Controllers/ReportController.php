@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Http;
 
 class ReportController extends Controller
 {
-    //
     public function index()
     {
 
@@ -17,14 +16,8 @@ class ReportController extends Controller
         curl_setopt($ch_session, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch_session, CURLOPT_URL, $url);
         $result = curl_exec($ch_session);
-        // $collection=array($result);
-        // $uniqueUserId=$array->unique('dat');
-         //$countUserId=$collection->countBy('date');
 
         echo json_encode($result,true);
-
-        // $posts=Http::get('https://google.com')->json();
-        // //$posts="vfvv ";
         // dd($posts);
         return view('report');
     }

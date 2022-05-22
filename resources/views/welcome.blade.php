@@ -83,11 +83,13 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <p>Due to limited time i only did below parts only in Intervest assignment</p>
+                    <p>-HELP & GUIDE SECTION Display data which enter by a form</p>
+                    <p>-HELP & GUIDE SECTION data enter by form</p>
+                    <p>-COVID-19 STAT REPORT retrive data from API and display only in json format</p>
+                    <p>-Relevant UI & GIT repositry</p>
+                    <p>-Database creation</p>
+                    <a href="https://github.com/rehanja/intervest">GitHub Repo link</a>
                 </div>
             </div>
         </div>
