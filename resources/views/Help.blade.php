@@ -124,40 +124,28 @@
         <div class="item">
           <p>Name</p>
           <div class="name-item">
-            <input type="text" name="name" placeholder="Type here" />
+            <input type="text" name="name" placeholder="Eg: REHAN JANANGA" />
           </div>
         </div>
         <div class="contact-item">
         </div>
         <div class="item">
           <p>date</p>
-          <input type="text" name="date"/>
+          <input type="text" name="date" placeholder="Eg: Monday, March 22, 2020"/>
         </div>
         <div class="item">
           <p>Post description</p>
-        
-          <textarea rows="3"  name="description" ></textarea>
-          
-          
+          <textarea rows="3"  name="description" placeholder="Type here"></textarea>
         </div>
         <div class="item">
           <p>Link</p>
-          <input type="text" name="link"/>
-          
+          <input type="text" name="link" placeholder="ENTER LINK"/>
         </div>
         
         <div class="btn-block">
           <button type="submit" href="/">SUBMIT POST</button>
         </div>
 
-        <table class="table table-dark">
-<th>Name</th>
-<th>Date</th>
-<th>Link</th>
-<th>Description</th>
-
-
-</table>
 
       </form>
       <br>

@@ -15,7 +15,19 @@
                     @endif
 
                     You are logged in!
+                    <div class="links">
+
+                    <a href="http://127.0.0.1:8000/guide">HELP & GUIDE SECTION DISPLAY DATA</a>
+                    <br>
+                    <a href="http://127.0.0.1:8000/help">HELP & GUIDE SECTION ENTER DATA</a>
+                    <br>
+                    <a href="http://127.0.0.1:8000/report">COVID-19 STAT REPORT</a>
+                    <br>
+                    <a href="https://github.com/rehanja/intervest">GITHUB REPO LINK</a>
                 </div>
+                    
+                </div>
+               
             </div>
         </div>
     </div>

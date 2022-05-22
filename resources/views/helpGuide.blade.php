@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>INTEVEST</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -53,22 +53,25 @@ body {
 </head>
 <body>
 
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
+  <div class="topnav">
+    <a href="http://127.0.0.1:8000/home">DASHBOARD</a>
+    <a href="http://127.0.0.1:8000/help">ENTER DATA</a>
+    <a href="http://127.0.0.1:8000/report">COVID-19 STAT REPORT</a>
+  </div>
 
-@foreach($helps as $help)
-<div class="content">
-  <h2>{{$help->name}}</h2>
-  <p>A topnav, content and a footer.</p>
-</div>
+  @foreach($helps as $help)
+    <div class="content">
+      <h1>{{$help->name}}</h1>
+      <h3>{{$help->date}}</h3>
+      <p>{{$help->post}}</p>
+      <a href={{$help->link}}>Click here to visit link</a>
+    </div>
+    <br>
+  @endforeach
 
-<div class="footer">
-  <p>Footer</p>
-</div>
-@endforeach
+  <div class="footer">
+    <p>INTERVEST ASSIGNMENT</p>
+  </div>
 </body>
 </html>
 
